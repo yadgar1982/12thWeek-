@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "title": "History of USA",
+      "author": "John M",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

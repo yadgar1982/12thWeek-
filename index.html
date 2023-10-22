@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD App for 12th week Assignment</title>
+    <!-- Bootstrap CDN -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body><br>
+    <div class="container">
+    </div>
+    <div class="container mt-5 p-3 ">
+        <div class="form-group">
+            <h4>Add Your Information bellow :</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <div class="form-group">
+                        <label for="title"><h5>Book Title</label>
+                        <input class="form-control"id="title" type="text" placeholder="Enter Book Title here"><br>
+                        <label for="author"><h5>Book Author</label>
+                        <input class="form-control" id="author" type="text" placeholder="Enter book author here"><br>
+                        <button id="submitBook" class="btn btn-primary float-left">Submit</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        
+        
+    </div>
+    
+    <div class="container" mt-5- p-3>
+        <table class="table">
+            <th>Book id</th>
+            <th>Book title</th>
+            <th>Book Author</th>
+            <th>Delete Book</th>
+            
+            <tbody>
+            <tr></tr>
+            </tbody>
+        </table>
+    </div>
+    
+    
+
+    
+    <!-- Jquery CDN  -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
+
+    <!-- Popper CDN: For dropdowns, popovers, tooltips, etc-->
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+    <!-- Bootstrap Script CDN -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+    <!-- Our script -->
+    <script src="./index.js"></script>
+</body>
+</html>

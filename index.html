@@ -19,7 +19,7 @@
     <div class="container">
     </div>
     <div class="container mt-5 p-3 ">
-        <div class="form-group">
+        <div class="form">
             <h4>Add Your Information bellow :</h4>
             <div class="row">
                 <div class="col-md-4">
@@ -29,7 +29,11 @@
                         <input class="form-control"id="title" type="text" placeholder="Enter Book Title here"><br>
                         <label for="author"><h5>Book Author</label>
                         <input class="form-control" id="author" type="text" placeholder="Enter book author here"><br>
-                        <button id="submitBook" class="btn btn-primary float-left">Submit</button>
+                        <button id="submitBook" class="btn btn-primary float-left" onclick="window. location. reload()">Submit Your Record</button><br><hr><br>
+                        <label for="Id"><h5>ID Update: </label>
+                        <input class="form-control"id="idUpdate" type="text" placeholder="Enter here for ID Update"><br>
+                        <button id="UpdateBook" class="btn btn-success float-left" onclick="window. location. reload()">Update Your Record</button>
+
                         </div>
                     </div>
                     </div>
@@ -49,9 +53,6 @@
             <th>Book Author</th>
             <th>Delete Book</th>
             
-            <tbody>
-            <tr></tr>
-            </tbody>
         </table>
     </div>
     

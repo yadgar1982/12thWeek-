@@ -22,15 +22,36 @@ $.get(URL_EndP).then (data=> {
     })
 })
 $("#submitBook").click(function (){
+    window. location. reload(),
     $.post(URL_EndP,{
         title: $("#title").val(),
         author: $("#author").val(), 
+        
     })
 });
 
 // with this function we delete the record
 function deleteBook(id){
+    window. location. reload(),
     $.ajax(`${URL_EndP}/${id}`, {
     method:"DELETE"
     });
 };
+
+
+
+//Update Function for updating the records
+
+function updtBook(){
+    let id= $("#idUpdate").val();
+    $.ajax(`${URL_EndP}/${id}`, {
+        method: "PUT",
+        data:{
+            title: $("#title").val(),
+            author:$("#author").val(),
+        }
+    });
+};
+
+
+$("#UpdateBook").click(updtBook)
